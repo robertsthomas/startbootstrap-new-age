@@ -1,27 +1,51 @@
 {
-  "name": "et_landing",
-  "version": "1.0.0",
-  "description": "[New Age](http://startbootstrap.com/template-overviews/new-age/) is a web app landing page theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).",
-  "main": "index.js",
-  "scripts": {
-    "dev": "parcel index.html",
-    "build": "parcel build index.html"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/robertsthomas/startbootstrap-new-age.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/robertsthomas/startbootstrap-new-age/issues"
-  },
-  "homepage": "https://github.com/robertsthomas/startbootstrap-new-age#readme",
-  "dependencies": {
-    "jquery": "^3.4.1"
-  },
-  "devDependencies": {
-    "parcel-bundler": "^1.12.4",
-    "webpack-cli": "^3.3.10"
-  }
+    "title": "Stylish Portfolio",
+    "name": "startbootstrap-stylish-portfolio",
+    "version": "5.0.7",
+    "scripts": {
+        "start": "node_modules/.bin/gulp watch"
+    },
+    "description": "A stylish portfolio HTML template built with Bootstrap",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "homepage": "https://startbootstrap.com/template-overviews/stylish-portfolio",
+    "bugs": {
+        "url": "https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/issues",
+        "email": "feedback@startbootstrap.com"
+    },
+    "license": "MIT",
+    "author": "Start Bootstrap",
+    "contributors": [
+        "David Miller (http://davidmiller.io/)"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio.git"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "5.10.2",
+        "bootstrap": "4.3.1",
+        "jquery": "3.4.1",
+        "jquery.easing": "^1.4.1",
+        "simple-line-icons": "^2.4.1"
+    },
+    "devDependencies": {
+        "browser-sync": "2.26.7",
+        "del": "5.1.0",
+        "gulp": "4.0.2",
+        "gulp-autoprefixer": "7.0.0",
+        "gulp-clean-css": "4.2.0",
+        "gulp-header": "2.0.9",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "1.4.0",
+        "gulp-sass": "4.0.2",
+        "gulp-uglify": "3.0.2",
+        "merge-stream": "2.0.0"
+    }
 }
